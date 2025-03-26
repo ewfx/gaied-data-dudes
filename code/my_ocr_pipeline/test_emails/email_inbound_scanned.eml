@@ -1,0 +1,29 @@
+From: testuser@example.com
+To: advancedgenai@example.com
+Subject: Scanned PDF: Inbound Funding Request
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+
+--BOUNDARY
+Content-Type: text/plain
+
+Hello Team,
+
+We would like to initiate a Money Movement-Inbound transaction for $2,500,000.
+Attached is a scanned PDF with more info.
+
+Regards,
+Client SCAN
+
+--BOUNDARY
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="scanned_inbound.pdf"
+
+
+JVBERi0xLjUNCiW1t7IKDQoxIDAgb2JqDTw8IC9DcmVhdG9yIChTY2FubmVkIERvY3Vp
+bWVudCBFeGFtcGxlKS9QYWdlcyAyIDAgUi9UeXBlL0NhdGFsb2c+PmVuZG9iajANCjIg
+...
+
+
+--BOUNDARY--

@@ -1,0 +1,29 @@
+From: testuser@example.com
+To: advancedgenai@example.com
+Subject: Adjustment Request - $500 Amendment
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+
+--BOUNDARY
+Content-Type: text/plain
+
+Dear Loan Servicing,
+
+We request an Adjustment for $500, referencing Amendment Fees.
+Attached is a text-based PDF.
+
+Thanks,
+Account Manager
+
+--BOUNDARY
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="adjustment_text.pdf"
+
+
+JVBERi0xLjUNCiW1t7IKDQoxIDAgb2JqDTw8IC9DcmVhdG9yIChUZXh0LVBkZikKL1Bh
+Z2VzIDIgMCBSCi9UeXBlL0NhdGFsb2c+PmVuZG9iajANCjIgMCBvYmoNPDwgL0NvdW50
+...
+
+
+--BOUNDARY--

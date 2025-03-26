@@ -1,5 +1,11 @@
 # scripts/serve_api.py
 
+import sys
+import os
+
+# Add the project root to the Python path dynamically
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 import os
 import tempfile
 import uvicorn

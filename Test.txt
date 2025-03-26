@@ -1,1 +1,37 @@
-test file
+cd /Users/sandy/My_Personal/python/hack/gaied-data-dudes/code
+python3 -m venv venv
+
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+
+
+Usage Summary
+Install Dependencies:
+
+
+cd my_ocr_pipeline
+pip install -r requirements.txt
+Also install Tesseract on your system if not already installed (for OCR).
+
+Generate Sample Emails (Optional):
+python3 scripts/generate_samples.py
+
+
+This puts .eml files into test_emails/.
+
+Run Pipeline in Batch Mode:
+python3 scripts/run_pipeline.py
+
+
+This scans test_emails/, processes each .eml, and prints a JSON report.
+
+Run as a REST API:
+python3 scripts/serve_api.py
+
+Then open your browser at http://127.0.0.1:8000/docs
+
+Upload .eml files to /classify_eml.
+

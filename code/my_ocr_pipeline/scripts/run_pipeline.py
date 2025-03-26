@@ -1,7 +1,11 @@
 # scripts/run_pipeline.py
 
+import sys
 import os
 import json
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 
 from src.pipeline import process_email
 

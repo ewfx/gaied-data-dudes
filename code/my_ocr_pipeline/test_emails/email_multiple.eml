@@ -1,0 +1,18 @@
+From: testuser@example.com
+To: advancedgenai@example.com
+Subject: Multiple Requests: Fee & Inbound
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+
+--BOUNDARY
+Content-Type: text/plain
+
+Hi Team,
+
+We need a Fee Payment soon. Also, there's an upcoming Money Movement-Inbound.
+But the Fee Payment is more urgent.
+
+Regards,
+Client MULTI
+
+--BOUNDARY--
