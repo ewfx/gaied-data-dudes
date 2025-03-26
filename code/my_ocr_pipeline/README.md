@@ -55,7 +55,6 @@ my_ocr_pipeline/
 
 ```bash
 pip install -r requirements.txt
-sudo apt-get install -y tesseract-ocr
 ```
 ---
 
