@@ -7,6 +7,7 @@
 -- Manual email sorting is slow and error-prone.
 
 -- Traditional OCR solutions struggle with scanned documents.
+-- The manual. Triage process requires a team of gatekeepers and time consuming, sometimes its inefficient and error prone when volume is large
 
 ### Solution Overview & Architecture
 ```bash
